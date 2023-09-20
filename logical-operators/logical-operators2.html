@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = 'Zuko';
+        let pass = 'UncleIroh';
+        let getName = prompt('Name?');
+        if (getName === name) {
+            if (getPass = (prompt('Password?') === pass)) {
+                alert('Get in!');
+            } else if (getPass === '' || getPass === null) {
+                alert('Get out!');
+            } else {
+                alert('Wrong answer...');
+            }
+        } else if (getName === '' || getName === null) {
+            alert('Get out!');
+        } else {
+            alert('Wrong answer...');
+        }
+    </script>
+    
+</body>
+</html>
