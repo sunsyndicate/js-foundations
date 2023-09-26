@@ -10,7 +10,8 @@
         let pass = 'UncleIroh';
         let getName = prompt('Name?');
         if (getName === name) {
-            if (getPass = (prompt('Password?') === pass)) {
+            let getPass = prompt('Password?');
+            if (getPass === pass) {
                 alert('Get in!');
             } else if (getPass === '' || getPass === null) {
                 alert('Get out!');
